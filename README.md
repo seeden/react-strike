@@ -2,6 +2,8 @@
 
 Strike component for react
 
+<img src="https://dl.dropboxusercontent.com/s/xl4dftkwyczccgh/strike.png" alt="strike" width="500px" />
+
 [![NPM version][npm-image]][npm-url]
 [![build status][travis-image]][travis-url]
 [![Test coverage][coveralls-image]][coveralls-url]
