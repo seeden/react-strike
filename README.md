@@ -16,7 +16,7 @@ Strike component for react
 [coveralls-url]: https://coveralls.io/r/seeden/react-strike?branch=master
 [github-url]: https://github.com/seeden/react-strike
 
-# Setings
+# Parameters
 
 - height (Number, default = 1) - height of the line
 - color (String, default = 'silver') - color of the line
@@ -35,7 +35,7 @@ import Strike from 'react-strike';
 export default class Example extends Component {
   render() {
     return (
-      <Strike>
+      <Strike color="red">
         Text in the strike
       </Strike>
     );
