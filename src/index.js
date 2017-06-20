@@ -1,4 +1,5 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 export default class Strike extends Component {
   static propTypes = {
@@ -10,6 +11,8 @@ export default class Strike extends Component {
   };
 
   static defaultProps = {
+    children: undefined,
+    className: undefined,
     height: 1,
     background: 'silver',
     space: 15,
