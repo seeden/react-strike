@@ -6,10 +6,10 @@ describe('Translate', () => {
   it('should be able to create simple instance', async () => {
     const wrapper = mount(
       <Strike>
-        <div>Hello</div>
+        <div className="test">Hello</div>
       </Strike>
     );
 
-    expect(wrapper.html()).toBe('<div>Hello</div>');
+    expect(wrapper.find('.test').html()).toBe('<div class="test">Hello</div>');
   });
 });
